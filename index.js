@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 const app = express();
 
 app.use(useragent.express());
-app.use(express.static('build'));
+app.use(express.static(path.join(__dirname, 'build')));
 
 app.get('/', function(req, res) {
     if (req.useragent.isMobile) {
