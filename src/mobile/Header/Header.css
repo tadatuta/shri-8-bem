@@ -1,0 +1,13 @@
+.Header-Logo {
+    width: 90px;
+    height: 21px;
+    margin: 0 auto 30px;
+    background-image: url('Header-Logo.png');
+}
+
+@media (min-resolution: 1.5dppx) {
+
+    .Header-Logo {
+        background-image: url('Header-Logo@2x.png');
+    }
+}

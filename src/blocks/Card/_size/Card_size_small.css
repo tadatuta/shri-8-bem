@@ -1,0 +1,26 @@
+.Card_size_small {
+    grid-column: span 2;
+}
+
+.Card_size_small .Card-ImageItem {
+    width: 100%;
+}
+
+.Card_size_small .Card-Title {
+    max-height: 50px;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.Card_size_small .Card-InfoActions {
+    position: absolute;
+    bottom: 13px;
+    right: 10px;
+    height: 50px;
+    margin-left: 0;
+}
+
+/*mobile*/
+.item--s {
+    grid-column: auto;
+}

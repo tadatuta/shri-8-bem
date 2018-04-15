@@ -1,0 +1,10 @@
+.Wrapper {
+    grid-gap: 40px 22px;
+}
+
+@media (min-width: 1440px) {
+
+    .Wrapper {
+        grid-gap: 50px 30px;
+    }
+}

@@ -1,0 +1,27 @@
+.Card_size_medium {
+    grid-column: span 3;
+}
+
+.Card_size_medium .Card-ImageItem {
+    width: 100%;
+    max-height: 202px;
+    margin-bottom: 5px;
+}
+
+.Card_size_medium .Card-Info {
+    display: flex;
+    padding-right: 10px;
+}
+
+/*mobile*/
+.item--m {
+    grid-column: auto;
+}
+
+.item--m {
+    align-self: end;
+}
+
+.item--m .item__img {
+    margin-bottom: 10px;
+}

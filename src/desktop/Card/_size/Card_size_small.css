@@ -1,0 +1,26 @@
+.Card_size_small .Card-Title {
+    max-height: 54px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.Card_size_small .Card-Title_isVisible {
+    max-height: none;
+}
+
+.Card_size_small .Card-InfoActions {
+    bottom: 18px;
+}
+
+@media (min-width: 1440px) {
+    .Card_size_small {
+        align-self: end;
+    }
+
+    .Card_size_small .Card-Title {
+        max-height: 58px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+}

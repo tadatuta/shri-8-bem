@@ -1,0 +1,26 @@
+.Card_withoutImage .Card-Title {
+    max-height: 100px;
+    margin-bottom: 7px;
+    padding-bottom: 0;
+}
+
+.Card_withoutImage .Card-Title_isVisible {
+    display: none;
+}
+
+.Card_withoutImage .Card-InfoDescription {
+    max-height: 122px;
+}
+
+.Card_withoutImage .Card-InfoActions {
+    right: 0;
+    bottom: 11px;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    padding-right: 10px;
+}
+
+.Card_withoutImage .Card-InfoActionsChannel {
+    display: block;
+}

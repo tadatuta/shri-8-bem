@@ -1,0 +1,9 @@
+@media (min-width: 1440px) {
+
+    .Card-InfoDescription {
+        max-height: 60px;
+        overflow: hidden;
+        font-size: 15px;
+        line-height: 20px;
+    }
+}

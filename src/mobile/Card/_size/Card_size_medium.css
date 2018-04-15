@@ -1,0 +1,8 @@
+.Card_size_medium {
+    grid-column: auto;
+    align-self: end;
+}
+
+.Card_size_medium .Card-ImageItem {
+    margin-bottom: 10px;
+}

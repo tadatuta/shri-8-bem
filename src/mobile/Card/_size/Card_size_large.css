@@ -1,0 +1,32 @@
+.Card_size_large {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    grid-column: 1 / -1;
+    height: auto;
+    padding-left: 0;
+}
+
+.Card_size_large .Card-InfoDescription {
+    width: 290px;
+    max-height: 120px;
+}
+
+.Card_size_large .Card-InfoActions {
+    width: 50px;
+}
+
+.Card_size_large .Card-Title {
+    font-size: 19px;
+    line-height: 22px;
+}
+
+.Card_size_large .Card-ImageItem {
+    position: initial;
+    max-width: 290px;
+    margin-bottom: 10px;
+}
+
+.Card_size_large .Card-Info {
+    padding-bottom: 30px;
+}

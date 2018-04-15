@@ -1,0 +1,7 @@
+.Card_size_small {
+    grid-column: auto;
+}
+
+.Card_size_small .Card-Title_isVisible {
+    max-height: none;
+}

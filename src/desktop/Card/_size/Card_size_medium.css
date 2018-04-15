@@ -1,0 +1,12 @@
+.Card_size_medium .Card-ImageItem {
+    max-height: 275px;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 1440px) {
+
+    .Card_size_medium .Card-ImageItem {
+        max-height: 380px;
+        margin-bottom: 10px;
+    }
+}

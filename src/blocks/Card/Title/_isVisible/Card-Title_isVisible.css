@@ -1,0 +1,18 @@
+.Card-Title_isVisible {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    max-height: none;
+}
+
+.Card-Title_isVisible a {
+    color: #000;
+    text-decoration: none;
+}
+
+.Card-Title_isVisible a:hover,
+.Card-Title_isVisible a:focus,
+.Card-Title_isVisible a:active {
+    text-decoration: underline;
+}

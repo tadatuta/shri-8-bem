@@ -1,5 +1,23 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+@font-face {
+    font-family: "YS Text";
+    src: url("../../assets/fonts/YS Text-Regular.eot");
+    src: url("../../assets/fonts/YS Text-Regular.eot?#iefix") format("embedded-opentype"),
+         url("../../assets/fonts/YS Text-Regular.woff2") format("woff2"),
+         url("../../assets/fonts/YS Text-Regular.woff") format("woff"),
+         url("../../assets/fonts/YS Text-Regular.ttf") format("truetype"),
+         url("../../assets/fonts/YS Text-Regular.svg#YSText-Regular") format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "YS Text";
+    src: url("../../assets/fonts/YS Text-Bold.eot");
+    src: url("../../assets/fonts/YS Text-Bold.eot?#iefix") format("embedded-opentype"),
+         url("../../assets/fonts/YS Text-Bold.woff2") format("woff2"),
+         url("../../assets/fonts/YS Text-Bold.woff") format("woff"),
+         url("../../assets/fonts/YS Text-Bold.ttf") format("truetype"),
+         url("../../assets/fonts/YS Text-Bold.svg#YSText-Bold") format("svg");
+    font-weight: 700;
+    font-style: normal;
 }
