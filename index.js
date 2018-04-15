@@ -11,11 +11,11 @@ app.use(express.static(path.join(__dirname, 'build')));
 
 app.get('/', function(req, res) {
     if (req.useragent.isMobile) {
-        res.sendFile(path.resolve(path.join(__dirname), 'mobile.html'));
+        res.sendFile(path.resolve(path.join(__dirname), 'build', 'mobile.html'));
     } else if (req.useragent.isTablet) {
-        res.sendFile(path.resolve(path.join(__dirname), 'tablet.html'));
+        res.sendFile(path.resolve(path.join(__dirname), 'build', 'tablet.html'));
     } else {
-        res.sendFile(path.resolve(path.join(__dirname), 'desktop.html'));
+        res.sendFile(path.resolve(path.join(__dirname), 'build', 'desktop.html'));
     }
 });
 
