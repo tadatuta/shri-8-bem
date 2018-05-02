@@ -11,8 +11,8 @@ export default decl({
 
         return (
             <Fragment>
-                <Bem elem="InfoDescription" tag="div">{this.props.description}</Bem>
-                <Bem elem="InfoActions" tag="div">
+                <Bem elem="InfoDescription">{this.props.description}</Bem>
+                <Bem elem="InfoActions">
                     {autor}
                     <Bem elem="InfoActionsMore" tag="a" href="#"/>
                     <Bem elem="InfoActionsLike" tag="a" href="#"/>

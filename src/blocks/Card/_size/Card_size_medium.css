@@ -12,16 +12,3 @@
     display: flex;
     padding-right: 10px;
 }
-
-/*mobile*/
-.item--m {
-    grid-column: auto;
-}
-
-.item--m {
-    align-self: end;
-}
-
-.item--m .item__img {
-    margin-bottom: 10px;
-}

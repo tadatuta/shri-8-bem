@@ -19,8 +19,3 @@
     height: 50px;
     margin-left: 0;
 }
-
-/*mobile*/
-.item--s {
-    grid-column: auto;
-}

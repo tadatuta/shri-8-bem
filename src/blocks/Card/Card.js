@@ -14,18 +14,19 @@ export default decl({
         return { size, withoutImage };
     },
     content() {
+        const data = this.props.data;
         return (
             <Fragment>
                 <header>
-                    <Title text={this.props.data.title} color={this.props.data.titleColor}/>
-                    <Title text={this.props.data.title}
-                           color={this.props.data.titleColor}
+                    <Title text={data.title} color={data.titleColor}/>
+                    <Title text={data.title}
+                           color={data.titleColor}
                            isVisible={true}/>
                 </header>
-                {this.props.data.image ? (
-                    <Image src={this.props.data.image}/>
+                {data.image ? (
+                    <Image src={data.image}/>
                 ) : null}
-                <Info description={this.props.data.description} channel={this.props.data.channelName}/>
+                <Info description={data.description} channel={data.channelName}/>
             </Fragment>
         );
     }
